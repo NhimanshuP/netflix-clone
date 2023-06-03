@@ -4,29 +4,41 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
-{
-	min-height: 100vh;
-	display: flax;
-	justify-content:center;
 	
-}
-body {
-    background-:;
-    
-}
-		
 .header {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
-	background-image:background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(images/header-image.png),opacity: 0.5;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+	background-image:  url(images/header-image.png);
     background-size: cover;
     background-position: center;
-    padding: 10px 8%;
+    /* padding: 10px 8%; */
     position: relative;
-
-
+}
+nav
+{
+    position: relative;
+}
+.bg-cover
+{
+    padding: 1rem 2rem;
+    position: relative;
+    left: 0px;
+    top: 0px;
+   width: 100vw;
+   height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    
 }
 
+.header-content, .logo
+{
+    color: white;
+    z-index: 999;
+}
 nav {
     display: flex;
     align-items: center;
@@ -150,6 +162,7 @@ nav button {
     padding: 10px  12%;
     text-align: center;
     font-size: 18px;
+    color: white;
 }
 .faq h2{
     font-weight: 500;
